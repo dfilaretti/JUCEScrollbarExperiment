@@ -5,10 +5,10 @@ MainComponent::MainComponent()
 {
 	addAndMakeVisible(viewport);
 	viewport.setViewedComponent(&bigComponent);
-	viewport.setScrollBarThickness(25);
+	viewport.setScrollBarThickness(15);
 
-	viewport.setPlaceScrollbarOverContent(false, true);
-	viewport.sethHideScrollbarWhenNotScrolling(false, true);
+	viewport.setPlaceScrollbarOverContent(true, true);
+	viewport.sethHideScrollbarWhenNotScrolling(true, false); // broken if (true, true)
 
 	setSize(400, 400);
 }
