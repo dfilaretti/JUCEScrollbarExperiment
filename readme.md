@@ -27,3 +27,10 @@ viewport.setPlaceScrollbarOverContent(true, true);
 * it appears when user starts scrolling (e.g. mouse wheel) 
 * disappear after 2secs (adjustable!) from last movement 
 
+Use this: 
+
+```c++
+viewport.sethHideScrollbarWhenNotScrolling(bool hideVertical, hideHorizontal); 
+```
+
+Note: broken if `(true, true)`!!
