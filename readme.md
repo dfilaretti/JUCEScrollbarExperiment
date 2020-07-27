@@ -32,5 +32,3 @@ Use this:
 ```c++
 viewport.sethHideScrollbarWhenNotScrolling(bool hideVertical, hideHorizontal); 
 ```
-
-Note: broken if `(true, true)`!!
